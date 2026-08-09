@@ -38,3 +38,7 @@ On first launch you pick a role — the same installer works as either side:
 ## Known limitation
 
 Server-side "which client key connected" activity logging isn't available on all Windows/OpenSSH builds — some installations don't expose a way to read sshd's connection log live. Client-side connect/disconnect logging works everywhere.
+
+## Support
+
+If Simple Router's useful to you, consider [buying me a coffee ☕](https://ko-fi.com/bromokun).
