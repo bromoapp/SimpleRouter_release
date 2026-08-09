@@ -24,6 +24,9 @@ On first launch you pick a role — the same installer works as either side:
 - Shows the PC's available LAN IPs to hand to a Client for setup
 - Live SSHD status in the tray and Settings window
 
+## Setup
+[How to Setup](https://github.com/bromoapp/SimpleRouter_release/wiki/How-to-Setup "View the setup guide")
+
 ## Design notes
 
 - No database — the source of truth for authorized keys is the real OpenSSH `authorized_keys`/`administrators_authorized_keys` files; the app just adds friendly names as local metadata
