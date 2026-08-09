@@ -25,6 +25,7 @@ On first launch you pick a role — the same installer works as either side:
 - Live SSHD status in the tray and Settings window
 
 ## Setup
+Download Installer -> [How to Setup](https://github.com/bromoapp/SimpleRouter_release/releases "Installer")
 Click -> [How to Setup](https://github.com/bromoapp/SimpleRouter_release/wiki/How-to-Setup "View the setup guide")
 
 ## Design notes
