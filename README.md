@@ -29,20 +29,10 @@ Download Installer -> [Win Intaller](https://github.com/bromoapp/SimpleRouter_re
 
 WIKI -> [How to Setup](https://github.com/bromoapp/SimpleRouter_release/wiki/How-to-Setup "View the setup guide")
 
-## Design notes
-
-- No database — the source of truth for authorized keys is the real OpenSSH `authorized_keys`/`administrators_authorized_keys` files; the app just adds friendly names as local metadata
-- Private keys are never written anywhere without an explicit, user-chosen destination folder
-- Runs quietly in the tray; closing the window hides it rather than exiting
-
 ## Requirements
 
 - Windows 10/11 with the built-in OpenSSH client/server components
 - SSH private keys used with the Client role must not be passphrase-protected (the tunnel runs non-interactively)
-
-## Known limitation
-
-Server-side "which client key connected" activity logging isn't available on all Windows/OpenSSH builds — some installations don't expose a way to read sshd's connection log live. Client-side connect/disconnect logging works everywhere.
 
 ## Support
 
