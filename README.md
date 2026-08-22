@@ -1,6 +1,6 @@
 # Simple Router
 
-**Simple Router** is an application designed to share internet or VPN access from a single PC to multiple other PCs on a local network.
+**Simple Router** is an application designed to share internet or VPN access from a single PC (securly) to multiple other PCs on a local network.
 
 ## Common Scenarios Addressed
 This application solves the following common networking issues:
